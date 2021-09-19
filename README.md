@@ -27,7 +27,7 @@ There are three files included in this:
 ```php
 $Parser = new Parser();
 
-echo $Parser->ParseText('Hello _Parser_'); # prints: <p>Hello <b>Parsedown</b></p>
+echo $Parser->ParseText('Hello _Parser_'); # prints: <p>Hello <b>Parser</b></p>
 ```
 
 ```php
@@ -40,6 +40,6 @@ You can also use inline and multiline texts to parse as well.
 
 ## Questions
 
-How does Parsedown work?
+How does HTML Markdown work?
 
 It tries to read Markdown like a human. First, it looks at the lines. It’s interested in how the lines start. This helps it recognise blocks. It knows, for example, that if a line starts with a # then perhaps it belongs to a header.
