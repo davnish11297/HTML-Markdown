@@ -20,6 +20,7 @@ There are three files included in this:
 5. `-` => Parse Unordered List
 6. `@` => Parse image
 7. `>` => Parse Blockquote
+8. `_Text_` => Parse bold text
 
 ## Example
 
