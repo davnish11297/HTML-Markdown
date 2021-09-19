@@ -14,7 +14,7 @@ There are three files included in this:
 ## Features
 
 1. `#` => Parse Header
-2. '' => Parse Unformatted text
+2. `''` => Parse Unformatted text
 3. `[with an inline link](http://google.com)` => Parse Link
 4. `:` => Parse Ordered List
 5. `-` => Parse Unordered List
